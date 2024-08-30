@@ -1,56 +1,195 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="cupcake">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- font awesome -->
+
+    <!-- <link rel="stylesheet" href="/myStyle.css"> -->
+
+    <link
+      rel="stylesheet"
+      href="https://hrid1.github.io/font-awesome-cdn/style.css"
+    />
+  </head>
+  <body>
     <header class="container mx-auto my-2">
-        <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <h2 class="text-2xl font-bold"> <span class="text-red-600">PH </span>Tube</h2>
-                </div>
-                <div class="navbar-center">
-                  <a class="btn bg-slate-300 text-xl">Sort By View</a>
-                </div>
-                <div class="navbar-end">
-                 <button class="px-3 py-2 rounded-full flex items-center justify-center text-white bg-red-500 font-bold text-xl ">Blog</button>
-                </div>
-              </div>
-        </nav>
-
-        <!-- categories -->
-
-        <div class="text-center space-x-4 my-4">
-            <button class="btn rounded-lg bg-red-200 ">All</button>
-            <button class="btn rounded-lg bg-red-200 ">Music</button>
-            <button class="btn rounded-lg bg-red-200 ">Comedy</button>
-            <button class="btn rounded-lg bg-red-200 ">Drawing</button>
+      <nav class="mb-6">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <h2 class="text-2xl font-bold">
+              <span class="text-red-600">PH </span>Tube
+            </h2>
+          </div>
+          <div class="navbar-center mt-2">
+            <a class="btn text-xl">Sort By View</a>
+          </div>
+          <div class="navbar-end">
+            <button
+              class="px-3 py-2 rounded-full flex items-center justify-center text-white bg-red-500 font-bold text-xl"
+            >
+              Blog
+            </button>
+          </div>
         </div>
+      </nav>
 
+      <!-- categories -->
 
-
+      <div class="text-center space-x-4 my-6">
+        <button class="btn rounded-lg bg-red-200">All</button>
+        <button class="btn rounded-lg bg-red-200">Music</button>
+        <button class="btn rounded-lg bg-red-200">Comedy</button>
+        <button class="btn rounded-lg bg-red-200">Drawing</button>
+      </div>
     </header>
 
+    <main class="container mx-auto">
+      <section
+        id="video-container"
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6"
+      >
+        <!-- video card -->
+        <div class="card card-compact bg-base-100">
+          
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Shoes"
+              class="rounded-md"
+            />
+          
+          <div class="flex items-start gap-2 mt-4 p-1">
+            <!--  -->
+            <div class="w-12 rounded-full">
+              <img
+                class="w-full h-full rounded-full"
+                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+              />
+            </div>
 
-    <main>
+            <!--  -->
 
+            <div>
+              <h2 class="card-title">
+                Lofi Quran: Ultimate stress relief - relaxation - Study
+              </h2>
+              <p>
+                Awlad Hossain
+                <span><i class="fa-duotone fa-solid fa-badge-check"></i></span>
+              </p>
+
+              <p>92k views</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100">
+          
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Shoes"
+              class="rounded-md"
+            />
+          
+          <div class="flex items-start gap-2 mt-4 p-1">
+            <!--  -->
+            <div class="w-12 rounded-full">
+              <img
+                class="w-full h-full rounded-full"
+                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+              />
+            </div>
+
+            <!--  -->
+
+            <div>
+              <h2 class="card-title">
+                Lofi Quran: Ultimate stress relief - relaxation - Study
+              </h2>
+              <p>
+                Awlad Hossain
+                <span><i class="fa-duotone fa-solid fa-badge-check"></i></span>
+              </p>
+
+              <p>92k views</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100">
+          
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Shoes"
+              class="rounded-md"
+            />
+          
+          <div class="flex items-start gap-2 mt-4 p-1">
+            <!--  -->
+            <div class="w-12 rounded-full">
+              <img
+                class="w-full h-full rounded-full"
+                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+              />
+            </div>
+
+            <!--  -->
+
+            <div>
+              <h2 class="card-title">
+                Lofi Quran: Ultimate stress relief - relaxation - Study
+              </h2>
+              <p>
+                Awlad Hossain
+                <span><i class="fa-duotone fa-solid fa-badge-check"></i></span>
+              </p>
+
+              <p>92k views</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact bg-base-100">
+          
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              alt="Shoes"
+              class="rounded-md"
+            />
+          
+          <div class="flex items-start gap-2 mt-4 p-1">
+            <!--  -->
+            <div class="w-12 rounded-full">
+              <img
+                class="w-full h-full rounded-full"
+                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+              />
+            </div>
+
+            <!--  -->
+
+            <div>
+              <h2 class="card-title">
+                Lofi Quran: Ultimate stress relief - relaxation - Study
+              </h2>
+              <p>
+                Awlad Hossain
+                <span><i class="fa-duotone fa-solid fa-badge-check"></i></span>
+              </p>
+
+              <p>92k views</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    
-
-
-
-
-
-
-
 
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
